@@ -24,7 +24,7 @@ Initially I thought I would be able to use both the google speech-to-text chrome
 
 I believe that Google uses Mespeak, and has built further upon it.  However, it was easier for me to implement the rhyming capability in a segmented fashion: (1) Google Chrome speech-to-text--the Javascript Web speech API;(2)RiTa Lexicon and Rhyme libraries in Javascript; (3) Mespeak with mbrola voice.  
 
-The work I did exists in the speechrecognizer.js file. This is where the separation of the individual words and rhyming happens.  In the final version I also edited the the look of the page, added text, color--minimal.
+The bulk of the work I did exists in the speechrecognizer.js file. This is where the separation of the individual words and rhyming happens.  In the final version I also edited the the look of the page, added text, color--minimal.
 
 
 
