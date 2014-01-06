@@ -14,7 +14,7 @@ Final Code Remarks:
 
 Code for a speech-to-text and text-to-speech project utilizing Javascript and the RiTa Javascript text processing libraries. 
 
-Will only run properly on the Chrome browser and may be subject the outtages of Google translation servers.
+Will only run properly on the Chrome browser and may be subject the outtages of Google translation servers. I have only run it in localhost mode so far--no daring Information Superhighway dashes yet.
 
 This repository includes files derived from the google Javascript web speech API. That being said, it was challenging figure out what to do with what was available, both before and after my learning about RiTa.  
 
