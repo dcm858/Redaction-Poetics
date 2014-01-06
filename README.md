@@ -1,6 +1,7 @@
 Redaction-Poetics: Final
 =================
-Midterm vs. Final
+Midterm vs. Final:
+
 I was going to include the midterm here so that a comparison could be made and the difference could become apparent, but the work I did on the midterm was mostly in researching, looking at Python and trying to assess whether or not I could create something reasonable in the amount of time I had, trying out examples using RiTa Processing, and finally, coalescing my development effort around the Javascript web speech API, speech-to-text, RiTa Javacript version. I was able to generate speech to text and text to speech that was rhymed.  
 
 In my midterm version, all of this work resulted in a meager single-page form that generated a single line of non-stop text, snaking through the form, relentlessly rhyming every single sound, alphabetically, stuck on the A's. 
@@ -9,7 +10,8 @@ In the final, I was able to figure out how to split the spoken text and rhyme in
 
 I would like to do more, to try out meters, and alliteration, but this is as far as I've gotten up till now. 
 
-Final Code Remarks
+Final Code Remarks:
+
 Code for a speech-to-text and text-to-speech project utilizing Javascript and the RiTa Javascript text processing libraries. 
 
 Will only run properly on the Chrome browser and may be subject the outtages of Google translation servers.
