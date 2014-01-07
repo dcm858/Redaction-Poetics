@@ -1,7 +1,7 @@
 Redaction-Poetics: Final 
-(for the main work of my project, see the speechrecognizer.js file)
 =================
 MIDTERM vs. FINAL
+(for the bulk of my work, see the speechrecognizer.js file)
 I began working on this poetry-mangling of everyday speech with the midterm project.  That project basically amounted to research and figuring out in a basic way how to rhyme speech to text and send that text back out rhymed robotic speech. 
 
 I was going to include the midterm here so that a comparison could be made and the difference could become apparent, but the work I did on the midterm was mostly in researching, looking at Python and trying to assess whether or not I could create something reasonable in the amount of time I had, trying out examples using RiTa Processing, and finally, coalescing my development effort around the Javascript web speech API, speech-to-text, RiTa Javacript version. I was able to generate speech to text and text to speech that was rhymed.  
