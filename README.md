@@ -2,6 +2,8 @@ Redaction-Poetics: Final
 =================
 Midterm vs. Final:
 
+I began working on this poetry-mangling of everyday speech with the midterm project.  That project basically amounted to research and figuring out in a basic way how to rhyme speech to text and send that text back out rhymed robotic speech. 
+
 I was going to include the midterm here so that a comparison could be made and the difference could become apparent, but the work I did on the midterm was mostly in researching, looking at Python and trying to assess whether or not I could create something reasonable in the amount of time I had, trying out examples using RiTa Processing, and finally, coalescing my development effort around the Javascript web speech API, speech-to-text, RiTa Javacript version. I was able to generate speech to text and text to speech that was rhymed.  
 
 In my midterm version, all of this work resulted in a meager single-page form that generated a single line of non-stop text, snaking through the form, relentlessly rhyming every single sound, alphabetically, stuck on the A's. And the male robotic voice was almost, but not quite, unintelligible.
