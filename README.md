@@ -13,6 +13,7 @@ In the final, I was able to figure out how to split the spoken text and rhyme in
 I would like to do more, to try out meters, and alliteration, but this is as far as I've gotten up till now. 
 
 Final Code Remarks:
+The bulk of the work I did exists in the speechrecognizer.js file. This is where the separation of the individual words and rhyming happens.  In the final version I also edited the the look of the page, added text, color--minimal.
 
 Code for a speech-to-text and text-to-speech project utilizing Javascript and the RiTa Javascript text processing libraries. 
 
@@ -26,7 +27,7 @@ Initially I thought I would be able to use both the google speech-to-text chrome
 
 I believe that Google uses Mespeak, and has built further upon it.  However, it was easier for me to implement the rhyming capability in a segmented fashion: (1) Google Chrome speech-to-text--the Javascript Web speech API;(2)RiTa Lexicon and Rhyme libraries in Javascript; (3) Mespeak with mbrola voice.  
 
-The bulk of the work I did exists in the speechrecognizer.js file. This is where the separation of the individual words and rhyming happens.  In the final version I also edited the the look of the page, added text, color--minimal.
+
 
 
 
