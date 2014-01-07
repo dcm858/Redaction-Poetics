@@ -6,7 +6,7 @@ var started = 0;
 	var recognition = Object;
 
         try {
-            recognition = new webkitSpeechRecognition();//this file came with canned pieces, but is useless
+            recognition = new webkitSpeechRecognition();//the original of this file came with canned pieces, almost all of which are gone--but is useless
             recognition = Object;		// --if object does not exist, code continues on anyway
         } catch(e) {
         }
@@ -18,7 +18,7 @@ var started = 0;
         var rhymeArea = $('#speech-page-rhyme');
         var textAreaID = 'speech-page-content';
 
-        $('.speech-mic').click(function(){
+        $('.speech-mic').click(function(){ //this is a reqmt of javascript api tts/stt functioning--tried to remove, as other have also tried, to no avail. Will try later, when more advanced.
         //$('.start').click(function(){
 	    if( started == 0 ) {
             	startRecognition();
@@ -28,9 +28,9 @@ var started = 0;
 	    }
 	    else {
 		recognition.stop();
-		var lex = new RiLexicon();
-		var text1 = document.getElementById('speech-page-content');
-		var text2 = document.getElementById('speech-page-rhyme');
+		var lex = new RiLexicon();   //the RiTa dictionary
+		var text1 = document.getElementById('speech-page-content'); //the recognized speech, such as it is...
+		var text2 = document.getElementById('speech-page-rhyme');  ///to be rhymed
 		var rhymes;
 		var words = text1.value.split(" "); 
 		//var tts = new GoogleTTS('en');
