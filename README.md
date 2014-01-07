@@ -1,7 +1,7 @@
 Redaction-Poetics: Final 
 =================
 MIDTERM vs. FINAL
-(for the bulk of my work, see the speechrecognizer.js file)
+(for the bulk of my work, see the speechrecognizer.js and speech.html files)
 I began working on this poetry-mangling of everyday speech with the midterm project.  That project basically amounted to research and figuring out in a basic way how to rhyme speech to text and send that text back out rhymed robotic speech. 
 
 I was going to include the midterm here so that a comparison could be made and the difference could become apparent, but the work I did on the midterm was mostly in researching, looking at Python and trying to assess whether or not I could create something reasonable in the amount of time I had, trying out examples using RiTa Processing, and finally, coalescing my development effort around the Javascript web speech API, speech-to-text, RiTa Javacript version. I was able to generate speech to text and text to speech that was rhymed.  
@@ -13,12 +13,12 @@ In the final, I was able to figure out how to split the spoken text and rhyme in
 I would like to do more, to try out meters, and alliteration, but this is as far as I've gotten up till now. 
 
 FINAL CODE REMARKS
-The bulk of the work I did exists in the speechrecognizer.js file. 
+The bulk of the work I did exists in the speechrecognizer.js, speech.html and file. 
 This is where the separation of the individual words and rhyming happens.  In the final version I also edited the the look of the page, added text, color--minimal.
 
 Code for a speech-to-text and text-to-speech project utilizing Javascript and the RiTa Javascript text processing libraries. 
 
-Will only run properly on the Chrome browser and may be subject the outtages of Google translation servers. I have only run it in localhost mode so far--no daring Information Superhighway dashes yet.
+Will only run properly on the Chrome browser and may be subject the outtages of Google translation servers. I have only run it in localhost mode so far--no daring Information Superhighway dashes yet.  As such:  localhost://etc.
 
 This repository includes files derived from the google Javascript web speech API. That being said, it was challenging figure out what to do with what was available, both before and after my learning about RiTa.  
 
