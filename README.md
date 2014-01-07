@@ -1,7 +1,7 @@
-Redaction-Poetics: Final
+Redaction-Poetics: Final 
+(for the main work of my project, see the speechrecognizer.js file)
 =================
-Midterm vs. Final:
-
+MIDTERM vs. FINAL
 I began working on this poetry-mangling of everyday speech with the midterm project.  That project basically amounted to research and figuring out in a basic way how to rhyme speech to text and send that text back out rhymed robotic speech. 
 
 I was going to include the midterm here so that a comparison could be made and the difference could become apparent, but the work I did on the midterm was mostly in researching, looking at Python and trying to assess whether or not I could create something reasonable in the amount of time I had, trying out examples using RiTa Processing, and finally, coalescing my development effort around the Javascript web speech API, speech-to-text, RiTa Javacript version. I was able to generate speech to text and text to speech that was rhymed.  
@@ -12,8 +12,9 @@ In the final, I was able to figure out how to split the spoken text and rhyme in
 
 I would like to do more, to try out meters, and alliteration, but this is as far as I've gotten up till now. 
 
-Final Code Remarks:
-The bulk of the work I did exists in the speechrecognizer.js file. This is where the separation of the individual words and rhyming happens.  In the final version I also edited the the look of the page, added text, color--minimal.
+FINAL CODE REMARKS
+The bulk of the work I did exists in the speechrecognizer.js file. 
+This is where the separation of the individual words and rhyming happens.  In the final version I also edited the the look of the page, added text, color--minimal.
 
 Code for a speech-to-text and text-to-speech project utilizing Javascript and the RiTa Javascript text processing libraries. 
 
@@ -26,8 +27,3 @@ I've included all pieces I worked with, including RiTa and the Mbrola speech lib
 Initially I thought I would be able to use both the google speech-to-text chrome extension and google text-to-speech on the other side of the RiTa rhyming.  I still think it may be possible, but when I finally worked it out, it seemed that the easiest way for me to use the RiTa rhyming capability with the Javascript web speech capabilities was to integrate the "Mespeak" text to speech engine and select a customizable voice from the Mbrola voice libraries. (Enables customization of pitch, speed, spacing in between words, as well as 50 versions of accented English speech). 
 
 I believe that Google uses Mespeak, and has built further upon it.  However, it was easier for me to implement the rhyming capability in a segmented fashion: (1) Google Chrome speech-to-text--the Javascript Web speech API;(2)RiTa Lexicon and Rhyme libraries in Javascript; (3) Mespeak with mbrola voice.  
-
-
-
-
-
