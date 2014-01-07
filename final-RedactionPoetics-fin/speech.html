@@ -1,0 +1,45 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="textarea-helper.js"></script>
+    <script type="text/javascript" src="speech-recognizer.js"></script>
+   <script type="text/javascript" src="rita.js"></script>
+  <script src="speakClient.js"></script>
+  <script type="text/javascript" src="mespeak.js"></script>
+  <script type="text/javascript">
+    meSpeak.loadConfig("mespeak_config.json");
+    meSpeak.loadVoice("voices/en/en.json");
+  
+    function loadVoice(id) {
+      var fname="voices/"+id+".json";
+      meSpeak.loadVoice(fname, voiceLoaded);
+    }
+  
+    function voiceLoaded(success, message) {
+      if (success) {
+        alert("Voice loaded: "+message+".");
+      }
+      else {
+        alert("Failed to load a voice: "+message);
+      }
+    }
+
+</script>
+</head>
+
+<body bgcolor="#EEEEEE">
+    <div id="main">
+        <div id="content">
+            <div id="speech-content-elements" style="position:absolute;left:20px;top:20px;">
+		<div style="font-style:italic;font-size:60px;font-family:arial;">Speak Freely</div>
+                <textarea id="speech-page-content" style="background-color:#EEEEEE;width:1500px;height:300px;font-size:120px;color:blue;border:0px;"  name="pageContent"></textarea>
+		<div style="font-style:italic;font-size:60px;font-family:arial;">Your Speech is now Protected </div>
+                <textarea style="background-color:#EEEEEE;width:1500px;height:300px;font-size:120px;color:red;border:0px;" id="speech-page-rhyme" name="pageContent"></textarea>
+                <div class="speech-content-mic speech-mic"/>
+            </div>
+            <div id="audio"></div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+.speech-content-mic {
+    width: 25px;
+    height: 25px;
+    cursor:pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.speech-mic {
+    background: url("mic.jpg") no-repeat 50% 50%;
+    background-size: contain;
+}
+
+.speech-mic-works {
+    background: url("stop.jpeg") no-repeat 50% 50%;
+    background-size: contain;
+}
+
