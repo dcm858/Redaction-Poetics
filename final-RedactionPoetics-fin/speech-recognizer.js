@@ -6,8 +6,8 @@ var started = 0;
 	var recognition = Object;
 
         try {
-            recognition = new webkitSpeechRecognition();//this came with canned pieces, but is useless
-            recognition = Object;						// --if object does not exist, code continues on anyway
+            recognition = new webkitSpeechRecognition();//this file came with canned pieces, but is useless
+            recognition = Object;		// --if object does not exist, code continues on anyway
         } catch(e) {
         }
         recognition.continuous = true;
@@ -37,18 +37,18 @@ var started = 0;
         text2.value = "";
         for(i=0; i<words.length; i++) {
 		  	rhymes = lex.rhymes(words[i]);
-            var pos = Math.floor(Math.random()*rhymes.length); // Random selection of rhymed word
+            var pos = Math.floor(Math.random()*rhymes.length); // Random selection of rhymed word-uses the length of the array to limit # of rhymed words (math.floor), & picks by position
 			if( rhymes[pos] != 'undefined' && rhymes[pos] ) {
 				text2.value = text2.value + rhymes[pos] + ' ';
-				// speak(rhymes[0]);   // Ignore because we use the full string once completed
+				// speak(rhymes[0]);   // Ignore because I use the full string once completed
 			}
 		}
-		meSpeak.speak(text2.value, { variant:'f5', speed:'100', wordgap:'2' } );
+		meSpeak.speak(text2.value, { variant:'f5', speed:'100', wordgap:'2' } );//tts capability, voice selection, speed, gap btwn wds
 		started=0;	
 		}
         });
 
-        $('.speech-mic-works').click(function(){
+        $('.speech-mic-works').click(function(){ //part of the required workflow tts/stt--There was some commentary online abt how to get around it, but I'm not advanced enough yet to attempt it.
         //$('.stop').click(function(){
             recognition.stop();
         });
