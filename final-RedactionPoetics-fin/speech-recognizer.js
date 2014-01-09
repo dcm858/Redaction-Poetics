@@ -8,7 +8,7 @@ var started = 0;
         try {
             //recognition = new webkitSpeechRecognition();//the original of this file came with canned pieces, almost all of which are gone--but is useless
             recognition = Object;		// --if object does not exist, code continues on anyway
-        } catch(e) {				//error trap ?
+        } catch(e) {				//error catching, but no catch function...came with pieces.
         }
         recognition.continuous = true;
         recognition.interimResults = true;
