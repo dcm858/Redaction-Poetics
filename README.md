@@ -1,7 +1,9 @@
 Redaction-Poetics: Final 
 =================
 MIDTERM vs. FINAL
-(for my work, see the speechrecognizer.js and speech.html files)
+
+*For MY WORK, see the speechrecognizer.js and speech.html files)
+
 I began working on this poetry-mangling of everyday speech with the midterm project.  That project basically amounted to research and figuring out in a basic way how to rhyme speech to text and send that text back out rhymed robotic speech. 
 
 [I have included in this repo ALL files I worked with or touched on to create this project, which includes ALL mbrola voices, all of RiTa libraries, including those few I used, as well all the files that are required within the Google Javascript stt API and similar for the Mespeak tts.]
